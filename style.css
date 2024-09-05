@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  width: 70%;
+  height: 50vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  background-color: rgb(255, 88, 88);
+}
+
+
+
+input {
+  width: 100%;
+}
+
+
+section {
+  width: 100%;
+  height: 70%;
+  background-color: beige;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: blueviolet;
+  
+}
+
+.list-item-p {
+  margin-right: auto;
+}
